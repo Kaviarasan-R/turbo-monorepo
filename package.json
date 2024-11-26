@@ -16,11 +16,11 @@
     "start": "node dist/server/apps/server/src/main"
   },
   "devDependencies": {
-    "turbo": "^2.0.9",
+    "turbo": "^2.3.2",
     "typescript": "^5.5.4"
   },
   "workspaces": [
-    "apps/**",
-    "libs/**"
+    "apps/*",
+    "libs/*"
   ]
 }

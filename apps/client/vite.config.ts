@@ -7,6 +7,10 @@ dotenv.config({ path: "../../.env" });
 
 export default defineConfig({
   plugins: [react()],
+  server: {
+    host: "localhost",
+    port: process.env.CLIENT_PORT,
+  },
   build: {
     outDir: "../../dist/client",
   },

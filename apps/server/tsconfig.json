@@ -15,6 +15,7 @@
       "@turborepo/utils": ["../../libs/utils/src"],
       "@turborepo/utils/*": ["../../libs/utils/src/*"]
     },
+    "esModuleInterop": true,
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,

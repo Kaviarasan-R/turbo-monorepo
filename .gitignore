@@ -1,8 +1,10 @@
-.vercel
-.turbo
+.git
 .env
+.turbo
 
+dist
 node_modules
+package-lock.json
 
 apps/client/.turbo
 apps/client/dist
