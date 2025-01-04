@@ -1,5 +1,5 @@
 {
-  "name": "shopify-embedded-app-boilerplate",
+  "name": "turbo-monorepo",
   "version": "1.0.0",
   "description": "Turbo monorepo template",
   "author": "Kaviarasan-R",
@@ -8,6 +8,10 @@
   "engines": {
     "node": "22.12.0",
     "npm": "11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kaviarasan-R/turbo-monorepo.git"
   },
   "license": "MIT",
   "scripts": {
